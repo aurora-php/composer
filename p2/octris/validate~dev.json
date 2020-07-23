@@ -1,0 +1,93 @@
+{
+    "packages": {
+        "octris/validate": [
+            {
+                "name": "octris/validate",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/validate.git",
+                    "reference": "c17d49d61232d32adc938a24ff64ca97dc3227e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/validate/zipball/c17d49d61232d32adc938a24ff64ca97dc3227e6",
+                    "reference": "c17d49d61232d32adc938a24ff64ca97dc3227e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2020-01-23T14:50:36+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Validate.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Validate\\": "libs/Validate/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Library for (parameter) validation.",
+                "homepage": "https://github.com/octris/validate",
+                "support": {
+                    "source": "https://github.com/octris/validate/tree/master",
+                    "issues": "https://github.com/octris/validate/issues"
+                }
+            },
+            {
+                "name": "octris/validate",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/validate.git",
+                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/validate/zipball/d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
+                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4.0"
+                },
+                "time": "2020-07-22T16:02:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Validate\\": "libs/Validate/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Library for (parameter) validation.",
+                "homepage": "https://github.com/octris/validate",
+                "support": {
+                    "source": "https://github.com/octris/validate/tree/dev",
+                    "issues": "https://github.com/octris/validate/issues"
+                }
+            }
+        ]
+    }
+}
