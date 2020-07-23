@@ -18,7 +18,7 @@ div.border-primary {
     border-color: #007baa !important;
 }
 pre.file {
-    border-left: #007baa;
+    border-left: 2px solid #007baa;
 }
 code {
     color: #b34678;
