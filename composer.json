@@ -1,0 +1,8 @@
+{
+    "name": "octris/composer",
+    "description": "Octris composer repository",
+    "homepage": "https://octris.github.io/composer/",
+    "require": {
+        "composer/satis": "dev-master"
+    }
+}

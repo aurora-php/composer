@@ -1,0 +1,11 @@
+{
+  "name": "Octris",
+  "homepage": "https://octris.github.io/composer/",
+  "description": "Octris composer packages",
+  "repositories": [
+    { "type": "vcs", "url": "git@github.com:octris/app.git"},
+    { "type": "vcs", "url": "git@github.com:octris/config.git"},
+    { "type": "vcs", "url": "git@github.com:octris/propertycollection.git"},
+    { "type": "vcs", "url": "git@github.com:octris/validate.git"}
+  ]
+}
