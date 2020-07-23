@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# Script for updateting package repository.
+# Script for updating package repository.
 #
 # @copyright  copyright (c) 2020-present by Harald Lapp
 # @author     Harald Lapp <harald@octris.org>
