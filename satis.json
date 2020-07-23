@@ -1,5 +1,5 @@
 {
-  "name": "Octris",
+  "name": "octris/composer",
   "homepage": "https://octris.github.io/composer/",
   "description": "Octris composer packages",
   "repositories": [
