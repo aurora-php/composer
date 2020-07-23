@@ -1,0 +1,750 @@
+{
+    "packages": {
+        "octris/app": {
+            "dev-master": {
+                "name": "octris/app",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:octris/app.git",
+                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/app/zipball/2e27e91b31452a8488f6575f6ddf2e0005982b36",
+                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-zlib": "*",
+                    "nikic/fast-route": "^1.3",
+                    "php": "^8.0",
+                    "psr/container": "^1.0",
+                    "spomky-labs/base64url": "^2.0",
+                    "symfony/http-foundation": "^5.1"
+                },
+                "time": "2020-07-21T13:00:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\App\\": "libs/App/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Octris Web Application Framework",
+                "homepage": "http://github.com/octris/app/",
+                "support": {
+                    "source": "https://github.com/octris/app/tree/master",
+                    "issues": "https://github.com/octris/app/issues"
+                }
+            }
+        },
+        "octris/assets": {
+            "v0.0.1": {
+                "name": "octris/assets",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/assets.git",
+                    "reference": "aa5798c71d9344a806fc17186cd824aad6caab19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/assets/zipball/aa5798c71d9344a806fc17186cd824aad6caab19",
+                    "reference": "aa5798c71d9344a806fc17186cd824aad6caab19",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "php": ">=5.6.0"
+                },
+                "time": "2017-06-03T01:17:45+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Octris\\Assets\\InstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Assets\\": "libs/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Installer for octris package assets.",
+                "homepage": "https://github.com/octris/assets",
+                "support": {
+                    "source": "https://github.com/octris/assets/tree/v0.0.1",
+                    "issues": "https://github.com/octris/assets/issues"
+                }
+            },
+            "dev-master": {
+                "name": "octris/assets",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/assets.git",
+                    "reference": "17219c876d9614cfeca597928f6d618d712ae9f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/assets/zipball/17219c876d9614cfeca597928f6d618d712ae9f1",
+                    "reference": "17219c876d9614cfeca597928f6d618d712ae9f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "php": ">=5.6.0"
+                },
+                "time": "2017-07-05T08:11:58+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Octris\\Assets\\InstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Assets\\": "libs/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Installer for octris package assets.",
+                "homepage": "https://github.com/octris/assets",
+                "support": {
+                    "source": "https://github.com/octris/assets/tree/master",
+                    "issues": "https://github.com/octris/assets/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "octris/assets",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/assets.git",
+                    "reference": "ae8f6a9fd57c94371c3297b4981cd3c95fc9042c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/assets/zipball/ae8f6a9fd57c94371c3297b4981cd3c95fc9042c",
+                    "reference": "ae8f6a9fd57c94371c3297b4981cd3c95fc9042c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "php": ">=5.6.0"
+                },
+                "time": "2017-06-06T16:37:56+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Octris\\Assets\\InstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Assets\\": "libs/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Installer for octris package assets.",
+                "homepage": "https://github.com/octris/assets",
+                "support": {
+                    "source": "https://github.com/octris/assets/tree/dev",
+                    "issues": "https://github.com/octris/assets/issues"
+                }
+            }
+        },
+        "octris/config": {
+            "v1.0.0": {
+                "name": "octris/config",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/config.git",
+                    "reference": "333495fa6952c70bd52de4dc4f48145b1dbdf1f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/config/zipball/333495fa6952c70bd52de4dc4f48145b1dbdf1f7",
+                    "reference": "333495fa6952c70bd52de4dc4f48145b1dbdf1f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-25T16:58:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Config.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Config\\": "libs/Config/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Config file library for OCTRiS based applications.",
+                "homepage": "https://github.com/octris/config",
+                "support": {
+                    "source": "https://github.com/octris/config/tree/v1.0.0",
+                    "issues": "https://github.com/octris/config/issues"
+                }
+            },
+            "dev-master": {
+                "name": "octris/config",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/config.git",
+                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/config/zipball/764d0e4ff1ce027d5c93e207ed3be71adb3db037",
+                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/propertycollection": "^2.0",
+                    "php": ">=7.0"
+                },
+                "suggest": {
+                    "ext-json": "Needed to support JSON format.",
+                    "ext-yaml": "Needed to support YAML format."
+                },
+                "time": "2020-07-08T15:14:35+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Config.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Config\\": "libs/Config/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Config handling component.",
+                "homepage": "https://github.com/octris/config",
+                "support": {
+                    "source": "https://github.com/octris/config/tree/master",
+                    "issues": "https://github.com/octris/config/issues"
+                }
+            }
+        },
+        "octris/parser": {
+            "v0.1.0": {
+                "name": "octris/parser",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/parser.git",
+                    "reference": "7436e50ad3f6e644605fcb4f349d94e2e2ffb165"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/parser/zipball/7436e50ad3f6e644605fcb4f349d94e2e2ffb165",
+                    "reference": "7436e50ad3f6e644605fcb4f349d94e2e2ffb165",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-05T09:19:15+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Parser.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Parser\\": "libs/Parser/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Library for building simple parsers.",
+                "homepage": "https://github.com/octris/parser",
+                "support": {
+                    "source": "https://github.com/octris/parser/tree/v0.1.0",
+                    "issues": "https://github.com/octris/parser/issues"
+                }
+            },
+            "v0.1.1": {
+                "name": "octris/parser",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/parser.git",
+                    "reference": "6bfe89fa343bc3b14b0eae20ba4b7ab635e26f7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/parser/zipball/6bfe89fa343bc3b14b0eae20ba4b7ab635e26f7a",
+                    "reference": "6bfe89fa343bc3b14b0eae20ba4b7ab635e26f7a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-16T09:39:15+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Parser.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Parser\\": "libs/Parser/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Library for building simple parsers.",
+                "homepage": "https://github.com/octris/parser",
+                "support": {
+                    "source": "https://github.com/octris/parser/tree/v0.1.1",
+                    "issues": "https://github.com/octris/parser/issues"
+                }
+            },
+            "dev-master": {
+                "name": "octris/parser",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/parser.git",
+                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/parser/zipball/17d155586fdfbb4f6fd973c48d8758114084e000",
+                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-16T09:40:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Parser.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Parser\\": "libs/Parser/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Library for building simple parsers.",
+                "homepage": "https://github.com/octris/parser",
+                "support": {
+                    "source": "https://github.com/octris/parser/tree/master",
+                    "issues": "https://github.com/octris/parser/issues"
+                }
+            }
+        },
+        "octris/propertycollection": {
+            "dev-master": {
+                "name": "octris/propertycollection",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:octris/propertycollection.git",
+                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/af3913e12a5d9e7e6a76219e04f42848a6d137b4",
+                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-08T14:30:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/PropertyCollection.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\PropertyCollection\\": "libs/PropertyCollection/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Collection data structure with dot-notation support.",
+                "homepage": "https://github.com/octris/propertycollection",
+                "support": {
+                    "source": "https://github.com/octris/propertycollection/tree/master",
+                    "issues": "https://github.com/octris/propertycollection/issues"
+                }
+            }
+        },
+        "octris/sqlbuilder": {
+            "v0.1.0": {
+                "name": "octris/sqlbuilder",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/sqlbuilder.git",
+                    "reference": "345f8bf0fb98018f7591b171343a171cc045e1a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/345f8bf0fb98018f7591b171343a171cc045e1a7",
+                    "reference": "345f8bf0fb98018f7591b171343a171cc045e1a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2016-01-20T14:50:18+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Sqlbuilder.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Sqlbuilder\\": "libs/Sqlbuilder/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "homepage": "https://github.com/octris/sqlbuilder",
+                "support": {
+                    "source": "https://github.com/octris/sqlbuilder/tree/v0.1.0",
+                    "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            },
+            "v0.1.1": {
+                "name": "octris/sqlbuilder",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/sqlbuilder.git",
+                    "reference": "21c5e48aaba7568e4352334307624e025f7f31c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/21c5e48aaba7568e4352334307624e025f7f31c5",
+                    "reference": "21c5e48aaba7568e4352334307624e025f7f31c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2017-01-21T03:10:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Sqlbuilder.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Sqlbuilder\\": "libs/Sqlbuilder/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Build dynamic SQL queries with ease.",
+                "homepage": "https://github.com/octris/sqlbuilder",
+                "keywords": [
+                    "sql"
+                ],
+                "support": {
+                    "source": "https://github.com/octris/sqlbuilder/tree/v0.1.1",
+                    "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            },
+            "v0.1.2": {
+                "name": "octris/sqlbuilder",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/sqlbuilder.git",
+                    "reference": "7b75bd968856ec65728bd24a826df92b6f6a7115"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/7b75bd968856ec65728bd24a826df92b6f6a7115",
+                    "reference": "7b75bd968856ec65728bd24a826df92b6f6a7115",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-03T16:31:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Sqlbuilder.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Sqlbuilder\\": "libs/Sqlbuilder/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Build dynamic SQL queries with ease.",
+                "homepage": "https://github.com/octris/sqlbuilder",
+                "keywords": [
+                    "sql"
+                ],
+                "support": {
+                    "source": "https://github.com/octris/sqlbuilder/tree/v0.1.2",
+                    "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            },
+            "dev-master": {
+                "name": "octris/sqlbuilder",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/sqlbuilder.git",
+                    "reference": "d22a494fd4814b3245fce20b4076eec1b382ffd3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/d22a494fd4814b3245fce20b4076eec1b382ffd3",
+                    "reference": "d22a494fd4814b3245fce20b4076eec1b382ffd3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2018-01-03T16:34:36+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Sqlbuilder.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Sqlbuilder\\": "libs/Sqlbuilder/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Build dynamic SQL queries with ease.",
+                "homepage": "https://github.com/octris/sqlbuilder",
+                "keywords": [
+                    "sql"
+                ],
+                "support": {
+                    "source": "https://github.com/octris/sqlbuilder/tree/master",
+                    "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            }
+        },
+        "octris/validate": {
+            "dev-master": {
+                "name": "octris/validate",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/validate.git",
+                    "reference": "c17d49d61232d32adc938a24ff64ca97dc3227e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/validate/zipball/c17d49d61232d32adc938a24ff64ca97dc3227e6",
+                    "reference": "c17d49d61232d32adc938a24ff64ca97dc3227e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2020-01-23T14:50:36+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Validate.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Validate\\": "libs/Validate/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Library for (parameter) validation.",
+                "homepage": "https://github.com/octris/validate",
+                "support": {
+                    "source": "https://github.com/octris/validate/tree/master",
+                    "issues": "https://github.com/octris/validate/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "octris/validate",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/validate.git",
+                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/validate/zipball/d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
+                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4.0"
+                },
+                "time": "2020-07-22T16:02:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Validate\\": "libs/Validate/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Library for (parameter) validation.",
+                "homepage": "https://github.com/octris/validate",
+                "support": {
+                    "source": "https://github.com/octris/validate/tree/dev",
+                    "issues": "https://github.com/octris/validate/issues"
+                }
+            }
+        }
+    }
+}

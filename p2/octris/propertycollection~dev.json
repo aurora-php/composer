@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "octris/propertycollection": [
+            {
+                "name": "octris/propertycollection",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:octris/propertycollection.git",
+                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/af3913e12a5d9e7e6a76219e04f42848a6d137b4",
+                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-08T14:30:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/PropertyCollection.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\PropertyCollection\\": "libs/PropertyCollection/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Collection data structure with dot-notation support.",
+                "homepage": "https://github.com/octris/propertycollection",
+                "support": {
+                    "source": "https://github.com/octris/propertycollection/tree/master",
+                    "issues": "https://github.com/octris/propertycollection/issues"
+                }
+            }
+        ]
+    }
+}
