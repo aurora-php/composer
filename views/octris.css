@@ -5,15 +5,21 @@ header {
     background-size: contain;
 }
 
-header a {
-    color: #383838;
+a {
+    color: #007baa;
 }
-header a:hover {
-    color: #686868;
+a:hover {
+    color: #007baa;
 }
 div.bg-primary {
-    background-color: #a8a8a8 !important;
+    background-color: #007baa !important;
 }
 div.border-primary {
-    border-color: #383838 !important;
+    border-color: #007baa !important;
+}
+pre.file {
+    border-left: #007baa;
+}
+code {
+    color: #b34678;
 }
