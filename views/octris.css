@@ -1,0 +1,19 @@
+header {
+    padding-left: 100px;
+    background-image: url("assets/octris.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header a {
+    color: #383838;
+}
+header a:hover {
+    color: #686868;
+}
+div.bg-primary {
+    background-color: #a8a8a8 !important;
+}
+div.border-primary {
+    border-color: #383838 !important;
+}
