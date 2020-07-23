@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "octris/assets": [
+            {
+                "name": "octris/assets",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/assets.git",
+                    "reference": "aa5798c71d9344a806fc17186cd824aad6caab19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/assets/zipball/aa5798c71d9344a806fc17186cd824aad6caab19",
+                    "reference": "aa5798c71d9344a806fc17186cd824aad6caab19",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "php": ">=5.6.0"
+                },
+                "time": "2017-06-03T01:17:45+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Octris\\Assets\\InstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Assets\\": "libs/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Installer for octris package assets.",
+                "homepage": "https://github.com/octris/assets",
+                "support": {
+                    "source": "https://github.com/octris/assets/tree/v0.0.1",
+                    "issues": "https://github.com/octris/assets/issues"
+                }
+            }
+        ]
+    }
+}
