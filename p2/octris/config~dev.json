@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "octris/config": [
+            {
+                "name": "octris/config",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/config.git",
+                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/config/zipball/764d0e4ff1ce027d5c93e207ed3be71adb3db037",
+                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/propertycollection": "^2.0",
+                    "php": ">=7.0"
+                },
+                "suggest": {
+                    "ext-json": "Needed to support JSON format.",
+                    "ext-yaml": "Needed to support YAML format."
+                },
+                "time": "2020-07-08T15:14:35+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Config.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Config\\": "libs/Config/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Config handling component.",
+                "homepage": "https://github.com/octris/config",
+                "support": {
+                    "source": "https://github.com/octris/config/tree/master",
+                    "issues": "https://github.com/octris/config/issues"
+                }
+            }
+        ]
+    }
+}
