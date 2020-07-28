@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "octris/tpl": [
+            {
+                "name": "octris/tpl",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/tpl.git",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/tpl/zipball/19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/debug": "^0.1.0",
+                    "octris/parser": "^0.1.0",
+                    "php": ">=5.6.0",
+                    "zendframework/zend-escaper": "^2.5"
+                },
+                "time": "2018-01-26T17:17:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Tpl.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Tpl\\": "libs/Tpl/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Template engine.",
+                "homepage": "https://github.com/octris/tpl",
+                "support": {
+                    "source": "https://github.com/octris/tpl/tree/v0.0.1",
+                    "issues": "https://github.com/octris/tpl/issues"
+                }
+            }
+        ]
+    }
+}

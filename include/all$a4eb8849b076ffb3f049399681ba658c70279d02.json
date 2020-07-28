@@ -286,6 +286,49 @@
                 }
             }
         },
+        "octris/hashfilter": {
+            "dev-master": {
+                "name": "octris/hashfilter",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/hashfilter.git",
+                    "reference": "5e5b80f9f68a7ade1a1322dd73b62c265b49339e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/hashfilter/zipball/5e5b80f9f68a7ade1a1322dd73b62c265b49339e",
+                    "reference": "5e5b80f9f68a7ade1a1322dd73b62c265b49339e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "time": "2020-07-28T14:17:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Streamfilter\\": "libs/Streamfilter"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Stream filter for incremental hashing.",
+                "homepage": "https://github.com/octris/hashfilter",
+                "support": {
+                    "source": "https://github.com/octris/hashfilter/tree/master",
+                    "issues": "https://github.com/octris/hashfilter/issues"
+                }
+            }
+        },
         "octris/parser": {
             "v0.1.0": {
                 "name": "octris/parser",
@@ -608,6 +651,54 @@
                     "issues": "https://github.com/octris/sqlbuilder/issues"
                 }
             },
+            "v0.1.3": {
+                "name": "octris/sqlbuilder",
+                "version": "v0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/sqlbuilder.git",
+                    "reference": "de0a9cb31b30488dd1d85f74ac6fe3a188d6d028"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/de0a9cb31b30488dd1d85f74ac6fe3a188d6d028",
+                    "reference": "de0a9cb31b30488dd1d85f74ac6fe3a188d6d028",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2020-07-24T14:13:51+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Sqlbuilder.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Sqlbuilder\\": "libs/Sqlbuilder/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Build dynamic SQL queries with ease.",
+                "homepage": "https://github.com/octris/sqlbuilder",
+                "keywords": [
+                    "sql"
+                ],
+                "support": {
+                    "source": "https://github.com/octris/sqlbuilder/tree/v0.1.3",
+                    "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            },
             "dev-master": {
                 "name": "octris/sqlbuilder",
                 "version": "dev-master",
@@ -615,18 +706,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/sqlbuilder.git",
-                    "reference": "d22a494fd4814b3245fce20b4076eec1b382ffd3"
+                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/d22a494fd4814b3245fce20b4076eec1b382ffd3",
-                    "reference": "d22a494fd4814b3245fce20b4076eec1b382ffd3",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
+                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.6.0"
+                    "php": "^7.4.0"
                 },
-                "time": "2018-01-03T16:34:36+00:00",
+                "time": "2020-07-24T15:21:24+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -654,6 +745,102 @@
                 "support": {
                     "source": "https://github.com/octris/sqlbuilder/tree/master",
                     "issues": "https://github.com/octris/sqlbuilder/issues"
+                }
+            }
+        },
+        "octris/tpl": {
+            "v0.0.1": {
+                "name": "octris/tpl",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/tpl.git",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/tpl/zipball/19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/debug": "^0.1.0",
+                    "octris/parser": "^0.1.0",
+                    "php": ">=5.6.0",
+                    "zendframework/zend-escaper": "^2.5"
+                },
+                "time": "2018-01-26T17:17:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Tpl.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Tpl\\": "libs/Tpl/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Template engine.",
+                "homepage": "https://github.com/octris/tpl",
+                "support": {
+                    "source": "https://github.com/octris/tpl/tree/v0.0.1",
+                    "issues": "https://github.com/octris/tpl/issues"
+                }
+            },
+            "dev-master": {
+                "name": "octris/tpl",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/tpl.git",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/tpl/zipball/19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "reference": "19b7022846daba02be5ed35dbac2a5bf46b021ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/debug": "^0.1.0",
+                    "octris/parser": "^0.1.0",
+                    "php": ">=5.6.0",
+                    "zendframework/zend-escaper": "^2.5"
+                },
+                "time": "2018-01-26T17:17:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Tpl.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Tpl\\": "libs/Tpl/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Template engine.",
+                "homepage": "https://github.com/octris/tpl",
+                "support": {
+                    "source": "https://github.com/octris/tpl/tree/v0.0.1",
+                    "issues": "https://github.com/octris/tpl/issues"
                 }
             }
         },
