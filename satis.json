@@ -7,9 +7,11 @@
     { "type": "vcs", "url": "git@github.com:octris/app.git"},
     { "type": "vcs", "url": "git@github.com:octris/assets.git"},
     { "type": "vcs", "url": "git@github.com:octris/config.git"},
+    { "type": "vcs", "url": "git@github.com:octris/hashfilter.git"},
     { "type": "vcs", "url": "git@github.com:octris/parser.git"},
     { "type": "vcs", "url": "git@github.com:octris/propertycollection.git"},
     { "type": "vcs", "url": "git@github.com:octris/sqlbuilder.git"},
+    { "type": "vcs", "url": "git@github.com:octris/tpl.git"},
     { "type": "vcs", "url": "git@github.com:octris/validate.git"}
   ]
 }
