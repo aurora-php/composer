@@ -1,5 +1,47 @@
 {
     "packages": {
-        "octris/hashfilter": []
+        "octris/hashfilter": [
+            {
+                "name": "octris/hashfilter",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/hashfilter.git",
+                    "reference": "5e5b80f9f68a7ade1a1322dd73b62c265b49339e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/hashfilter/zipball/5e5b80f9f68a7ade1a1322dd73b62c265b49339e",
+                    "reference": "5e5b80f9f68a7ade1a1322dd73b62c265b49339e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "time": "2020-07-28T14:17:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Streamfilter\\": "libs/Streamfilter"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Stream filter for incremental hashing.",
+                "homepage": "https://github.com/octris/hashfilter",
+                "support": {
+                    "source": "https://github.com/octris/hashfilter/tree/master",
+                    "issues": "https://github.com/octris/hashfilter/issues"
+                }
+            }
+        ]
     }
 }
