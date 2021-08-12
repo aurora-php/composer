@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/app.git",
-                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36"
+                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/app/zipball/2e27e91b31452a8488f6575f6ddf2e0005982b36",
-                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36",
+                    "url": "https://api.github.com/repos/octris/app/zipball/86707b89c42d4ffdff4b9a3cce112479671f2e0e",
+                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "spomky-labs/base64url": "^2.0",
                     "symfony/http-foundation": "^5.1"
                 },
-                "time": "2020-07-21T13:00:34+00:00",
+                "time": "2021-08-12T12:20:38+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {

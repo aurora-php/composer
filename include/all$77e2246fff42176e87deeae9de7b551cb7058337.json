@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/app.git",
-                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36"
+                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/app/zipball/2e27e91b31452a8488f6575f6ddf2e0005982b36",
-                    "reference": "2e27e91b31452a8488f6575f6ddf2e0005982b36",
+                    "url": "https://api.github.com/repos/octris/app/zipball/86707b89c42d4ffdff4b9a3cce112479671f2e0e",
+                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "spomky-labs/base64url": "^2.0",
                     "symfony/http-foundation": "^5.1"
                 },
-                "time": "2020-07-21T13:00:34+00:00",
+                "time": "2021-08-12T12:20:38+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -390,6 +390,46 @@
                 }
             }
         },
+        "octris/devel": {
+            "dev-main": {
+                "name": "octris/devel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:octris/devel.git",
+                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/devel/zipball/299dee77ca3aa13f25121fdff521c943b1a32ecf",
+                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf",
+                    "shasum": ""
+                },
+                "time": "2021-08-12T14:08:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Autoloader.php"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org"
+                    }
+                ],
+                "description": "Libraries useful during development",
+                "homepage": "https://github.com/octris/devel",
+                "support": {
+                    "source": "https://github.com/octris/devel/tree/main",
+                    "issues": "https://github.com/octris/devel/issues"
+                }
+            }
+        },
         "octris/hashfilter": {
             "v0.1.0": {
                 "name": "octris/hashfilter",
@@ -428,7 +468,7 @@
                 "description": "Stream filter for incremental hashing.",
                 "homepage": "https://github.com/octris/hashfilter",
                 "support": {
-                    "source": "https://github.com/octris/hashfilter/tree/master",
+                    "source": "https://github.com/octris/hashfilter/tree/v0.1.0",
                     "issues": "https://github.com/octris/hashfilter/issues"
                 }
             },
@@ -469,7 +509,7 @@
                 "description": "Stream filter for incremental hashing.",
                 "homepage": "https://github.com/octris/hashfilter",
                 "support": {
-                    "source": "https://github.com/octris/hashfilter/tree/master",
+                    "source": "https://github.com/octris/hashfilter/tree/v0.1.0",
                     "issues": "https://github.com/octris/hashfilter/issues"
                 }
             }
@@ -570,18 +610,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/parser.git",
-                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000"
+                    "reference": "df3e734f80dece0bfaf8a77d44ce18b0508803fc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/parser/zipball/17d155586fdfbb4f6fd973c48d8758114084e000",
-                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000",
+                    "url": "https://api.github.com/repos/octris/parser/zipball/df3e734f80dece0bfaf8a77d44ce18b0508803fc",
+                    "reference": "df3e734f80dece0bfaf8a77d44ce18b0508803fc",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.6.0"
+                    "php": "^8.0"
                 },
-                "time": "2018-01-16T09:40:50+00:00",
+                "time": "2020-07-29T10:09:53+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -605,6 +645,98 @@
                 "support": {
                     "source": "https://github.com/octris/parser/tree/master",
                     "issues": "https://github.com/octris/parser/issues"
+                }
+            }
+        },
+        "octris/process": {
+            "dev-master": {
+                "name": "octris/process",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/process.git",
+                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/process/zipball/f97b86a9646209b3579c49c19a0bdc551729111d",
+                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1.0"
+                },
+                "time": "2017-10-07T11:03:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Process.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Process\\": "libs/Process/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Octris process handling library",
+                "homepage": "http://github.com/octris/process/",
+                "support": {
+                    "source": "https://github.com/octris/process/tree/master",
+                    "issues": "https://github.com/octris/process/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "octris/process",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/process.git",
+                    "reference": "885154f4f23d52045b08d3fca04aacb842153705"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/process/zipball/885154f4f23d52045b08d3fca04aacb842153705",
+                    "reference": "885154f4f23d52045b08d3fca04aacb842153705",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1.0"
+                },
+                "time": "2017-10-07T11:07:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Process.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Process\\": "libs/Process/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Octris process handling library",
+                "homepage": "http://github.com/octris/process/",
+                "support": {
+                    "source": "https://github.com/octris/process/tree/dev",
+                    "issues": "https://github.com/octris/process/issues"
                 }
             }
         },
@@ -995,23 +1127,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/tpl.git",
-                    "reference": "68ab00d301c2ddc28d0a55d644d2407e66e46c72"
+                    "reference": "1275eaf4e8222c9e086570414d107d60d3266709"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/tpl/zipball/68ab00d301c2ddc28d0a55d644d2407e66e46c72",
-                    "reference": "68ab00d301c2ddc28d0a55d644d2407e66e46c72",
+                    "url": "https://api.github.com/repos/octris/tpl/zipball/1275eaf4e8222c9e086570414d107d60d3266709",
+                    "reference": "1275eaf4e8222c9e086570414d107d60d3266709",
                     "shasum": ""
                 },
                 "require": {
                     "laminas/laminas-escaper": "^2.5",
+                    "octris/cachekey": "dev-master",
                     "octris/debug": "^0.1.0",
                     "octris/hashfilter": "^0.1.0",
                     "octris/parser": "^0.1.0",
-                    "php": ">=7.4",
+                    "php": "^8.0",
                     "psr/simple-cache": "^1.0"
                 },
-                "time": "2020-07-28T15:45:45+00:00",
+                "time": "2020-07-31T15:01:44+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

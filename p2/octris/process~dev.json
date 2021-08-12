@@ -1,0 +1,96 @@
+{
+    "packages": {
+        "octris/process": [
+            {
+                "name": "octris/process",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/process.git",
+                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/process/zipball/f97b86a9646209b3579c49c19a0bdc551729111d",
+                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1.0"
+                },
+                "time": "2017-10-07T11:03:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Process.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Process\\": "libs/Process/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Octris process handling library",
+                "homepage": "http://github.com/octris/process/",
+                "support": {
+                    "source": "https://github.com/octris/process/tree/master",
+                    "issues": "https://github.com/octris/process/issues"
+                }
+            },
+            {
+                "name": "octris/process",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/process.git",
+                    "reference": "885154f4f23d52045b08d3fca04aacb842153705"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/process/zipball/885154f4f23d52045b08d3fca04aacb842153705",
+                    "reference": "885154f4f23d52045b08d3fca04aacb842153705",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1.0"
+                },
+                "time": "2017-10-07T11:07:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Process.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Process\\": "libs/Process/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Octris process handling library",
+                "homepage": "http://github.com/octris/process/",
+                "support": {
+                    "source": "https://github.com/octris/process/tree/dev",
+                    "issues": "https://github.com/octris/process/issues"
+                }
+            }
+        ]
+    }
+}

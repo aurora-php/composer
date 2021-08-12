@@ -38,7 +38,7 @@
                 "description": "Stream filter for incremental hashing.",
                 "homepage": "https://github.com/octris/hashfilter",
                 "support": {
-                    "source": "https://github.com/octris/hashfilter/tree/master",
+                    "source": "https://github.com/octris/hashfilter/tree/v0.1.0",
                     "issues": "https://github.com/octris/hashfilter/issues"
                 }
             }

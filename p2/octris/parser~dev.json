@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/parser.git",
-                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000"
+                    "reference": "df3e734f80dece0bfaf8a77d44ce18b0508803fc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/parser/zipball/17d155586fdfbb4f6fd973c48d8758114084e000",
-                    "reference": "17d155586fdfbb4f6fd973c48d8758114084e000",
+                    "url": "https://api.github.com/repos/octris/parser/zipball/df3e734f80dece0bfaf8a77d44ce18b0508803fc",
+                    "reference": "df3e734f80dece0bfaf8a77d44ce18b0508803fc",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.6.0"
+                    "php": "^8.0"
                 },
-                "time": "2018-01-16T09:40:50+00:00",
+                "time": "2020-07-29T10:09:53+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
