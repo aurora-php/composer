@@ -1,6 +1,6 @@
 {
   "name": "octris/composer",
-  "homepage": "https://octris.github.io/composer/",
+  "homepage": "https://octris.org/composer/",
   "description": "Octris composer packages",
   "twig-template": "views/index.html.twig",
   "repositories": [
