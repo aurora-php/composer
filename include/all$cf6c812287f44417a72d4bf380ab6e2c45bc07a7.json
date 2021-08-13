@@ -242,23 +242,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/config.git",
-                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037"
+                    "reference": "c8d12be8677d092a8d634024e3a8043f3df5f79a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/config/zipball/764d0e4ff1ce027d5c93e207ed3be71adb3db037",
-                    "reference": "764d0e4ff1ce027d5c93e207ed3be71adb3db037",
+                    "url": "https://api.github.com/repos/octris/config/zipball/c8d12be8677d092a8d634024e3a8043f3df5f79a",
+                    "reference": "c8d12be8677d092a8d634024e3a8043f3df5f79a",
                     "shasum": ""
                 },
                 "require": {
                     "octris/propertycollection": "^2.0",
-                    "php": ">=7.0"
+                    "php": ">=7.1"
                 },
                 "suggest": {
                     "ext-json": "Needed to support JSON format.",
                     "ext-yaml": "Needed to support YAML format."
                 },
-                "time": "2020-07-08T15:14:35+00:00",
+                "time": "2021-08-13T10:57:17+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -747,7 +747,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:octris/propertycollection.git",
+                    "url": "https://github.com/octris/propertycollection.git",
                     "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4"
                 },
                 "dist": {

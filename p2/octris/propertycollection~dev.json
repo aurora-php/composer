@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:octris/propertycollection.git",
+                    "url": "https://github.com/octris/propertycollection.git",
                     "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4"
                 },
                 "dist": {
