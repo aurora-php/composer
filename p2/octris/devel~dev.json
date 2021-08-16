@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/devel.git",
-                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf"
+                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/devel/zipball/299dee77ca3aa13f25121fdff521c943b1a32ecf",
-                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf",
+                    "url": "https://api.github.com/repos/octris/devel/zipball/a6d10f74711623eb008d3f7bc578ebe5d528604e",
+                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e",
                     "shasum": ""
                 },
-                "time": "2021-08-12T14:08:06+00:00",
+                "time": "2021-08-16T13:32:34+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

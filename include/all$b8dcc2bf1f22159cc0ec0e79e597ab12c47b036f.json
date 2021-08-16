@@ -398,15 +398,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/devel.git",
-                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf"
+                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/devel/zipball/299dee77ca3aa13f25121fdff521c943b1a32ecf",
-                    "reference": "299dee77ca3aa13f25121fdff521c943b1a32ecf",
+                    "url": "https://api.github.com/repos/octris/devel/zipball/a6d10f74711623eb008d3f7bc578ebe5d528604e",
+                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e",
                     "shasum": ""
                 },
-                "time": "2021-08-12T14:08:06+00:00",
+                "time": "2021-08-16T13:32:34+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -748,18 +748,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/propertycollection.git",
-                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4"
+                    "reference": "d4e0a9c981351c22557dcd0270db040fd6745ac1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/af3913e12a5d9e7e6a76219e04f42848a6d137b4",
-                    "reference": "af3913e12a5d9e7e6a76219e04f42848a6d137b4",
+                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/d4e0a9c981351c22557dcd0270db040fd6745ac1",
+                    "reference": "d4e0a9c981351c22557dcd0270db040fd6745ac1",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.0"
+                    "php": ">=7.4"
                 },
-                "time": "2020-07-08T14:30:00+00:00",
+                "time": "2021-08-16T11:52:04+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
