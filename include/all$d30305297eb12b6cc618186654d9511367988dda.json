@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/app.git",
-                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e"
+                    "reference": "46a4a6bad24d18baeedd0999d64331a12113608c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/app/zipball/86707b89c42d4ffdff4b9a3cce112479671f2e0e",
-                    "reference": "86707b89c42d4ffdff4b9a3cce112479671f2e0e",
+                    "url": "https://api.github.com/repos/octris/app/zipball/46a4a6bad24d18baeedd0999d64331a12113608c",
+                    "reference": "46a4a6bad24d18baeedd0999d64331a12113608c",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "spomky-labs/base64url": "^2.0",
                     "symfony/http-foundation": "^5.1"
                 },
-                "time": "2021-08-12T12:20:38+00:00",
+                "time": "2021-08-18T14:53:52+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -656,18 +656,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/process.git",
-                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d"
+                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/process/zipball/f97b86a9646209b3579c49c19a0bdc551729111d",
-                    "reference": "f97b86a9646209b3579c49c19a0bdc551729111d",
+                    "url": "https://api.github.com/repos/octris/process/zipball/559f6470a32c1b4b60ed5b73c910da8aa36d97db",
+                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.1.0"
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "php": ">=8.0"
                 },
-                "time": "2017-10-07T11:03:12+00:00",
+                "time": "2021-08-17T15:30:05+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
