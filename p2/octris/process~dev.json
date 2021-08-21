@@ -8,20 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/process.git",
-                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db"
+                    "reference": "4dea89e694c700fb4739b77ef7490186f9689202"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/process/zipball/559f6470a32c1b4b60ed5b73c910da8aa36d97db",
-                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db",
+                    "url": "https://api.github.com/repos/octris/process/zipball/4dea89e694c700fb4739b77ef7490186f9689202",
+                    "reference": "4dea89e694c700fb4739b77ef7490186f9689202",
                     "shasum": ""
                 },
                 "require": {
                     "ext-pcntl": "*",
                     "ext-posix": "*",
-                    "php": ">=8.0"
+                    "php": ">=8.0",
+                    "psr/container": "^1.0"
                 },
-                "time": "2021-08-17T15:30:05+00:00",
+                "time": "2021-08-19T12:10:05+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

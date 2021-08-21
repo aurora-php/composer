@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/app.git",
-                    "reference": "46a4a6bad24d18baeedd0999d64331a12113608c"
+                    "reference": "2e7f0042cc2682421142166ef562f3a8c6dec185"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/app/zipball/46a4a6bad24d18baeedd0999d64331a12113608c",
-                    "reference": "46a4a6bad24d18baeedd0999d64331a12113608c",
+                    "url": "https://api.github.com/repos/octris/app/zipball/2e7f0042cc2682421142166ef562f3a8c6dec185",
+                    "reference": "2e7f0042cc2682421142166ef562f3a8c6dec185",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "spomky-labs/base64url": "^2.0",
                     "symfony/http-foundation": "^5.1"
                 },
-                "time": "2021-08-18T14:53:52+00:00",
+                "time": "2021-08-19T19:26:32+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -398,15 +398,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/devel.git",
-                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e"
+                    "reference": "1c789e200806ab81462b078d315786827360e271"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/devel/zipball/a6d10f74711623eb008d3f7bc578ebe5d528604e",
-                    "reference": "a6d10f74711623eb008d3f7bc578ebe5d528604e",
+                    "url": "https://api.github.com/repos/octris/devel/zipball/1c789e200806ab81462b078d315786827360e271",
+                    "reference": "1c789e200806ab81462b078d315786827360e271",
                     "shasum": ""
                 },
-                "time": "2021-08-16T13:32:34+00:00",
+                "time": "2021-08-21T18:51:29+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -656,20 +656,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/process.git",
-                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db"
+                    "reference": "4dea89e694c700fb4739b77ef7490186f9689202"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/process/zipball/559f6470a32c1b4b60ed5b73c910da8aa36d97db",
-                    "reference": "559f6470a32c1b4b60ed5b73c910da8aa36d97db",
+                    "url": "https://api.github.com/repos/octris/process/zipball/4dea89e694c700fb4739b77ef7490186f9689202",
+                    "reference": "4dea89e694c700fb4739b77ef7490186f9689202",
                     "shasum": ""
                 },
                 "require": {
                     "ext-pcntl": "*",
                     "ext-posix": "*",
-                    "php": ">=8.0"
+                    "php": ">=8.0",
+                    "psr/container": "^1.0"
                 },
-                "time": "2021-08-17T15:30:05+00:00",
+                "time": "2021-08-19T12:10:05+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -1226,18 +1227,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/validate.git",
-                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d"
+                    "reference": "7a523cc2f97ce987a29efb07108a6c2c9d89237e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/validate/zipball/d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
-                    "reference": "d70a8e937bd5dd7f5b98bf53103438d5f7b5a41d",
+                    "url": "https://api.github.com/repos/octris/validate/zipball/7a523cc2f97ce987a29efb07108a6c2c9d89237e",
+                    "reference": "7a523cc2f97ce987a29efb07108a6c2c9d89237e",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.4.0"
+                    "php": ">=8.0"
                 },
-                "time": "2020-07-22T16:02:56+00:00",
+                "time": "2021-08-21T17:11:11+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
