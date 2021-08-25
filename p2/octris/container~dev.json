@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "octris/container": [
+            {
+                "name": "octris/container",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/container.git",
+                    "reference": "36bfa0d2e4628c3f76ee495013a31dff57f46a84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/container/zipball/36bfa0d2e4628c3f76ee495013a31dff57f46a84",
+                    "reference": "36bfa0d2e4628c3f76ee495013a31dff57f46a84",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "psr/container": "^1.0"
+                },
+                "time": "2021-08-25T15:34:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Container.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Container\\": "libs/Container/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "PSR-11 compliant container for the OCTRiS framework.",
+                "homepage": "https://github.com/octris/container",
+                "support": {
+                    "source": "https://github.com/octris/container/tree/master",
+                    "issues": "https://github.com/octris/container/issues"
+                }
+            }
+        ]
+    }
+}
