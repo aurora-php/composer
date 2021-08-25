@@ -751,18 +751,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/propertycollection.git",
-                    "reference": "d4e0a9c981351c22557dcd0270db040fd6745ac1"
+                    "reference": "61a8fb849c272730d0638d32327b9ced4e822e36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/d4e0a9c981351c22557dcd0270db040fd6745ac1",
-                    "reference": "d4e0a9c981351c22557dcd0270db040fd6745ac1",
+                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/61a8fb849c272730d0638d32327b9ced4e822e36",
+                    "reference": "61a8fb849c272730d0638d32327b9ced4e822e36",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.4"
                 },
-                "time": "2021-08-16T11:52:04+00:00",
+                "time": "2021-08-21T20:01:31+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -986,18 +986,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/sqlbuilder.git",
-                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2"
+                    "reference": "37d2f679f9801e1ca99728750e0855526d0a6b7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
-                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/37d2f679f9801e1ca99728750e0855526d0a6b7c",
+                    "reference": "37d2f679f9801e1ca99728750e0855526d0a6b7c",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^7.4.0"
                 },
-                "time": "2020-07-24T15:21:24+00:00",
+                "time": "2021-08-24T18:51:08+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

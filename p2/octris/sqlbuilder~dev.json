@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/sqlbuilder.git",
-                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2"
+                    "reference": "37d2f679f9801e1ca99728750e0855526d0a6b7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
-                    "reference": "b02dd4c0adc7b27212b58e54fe3baa7d28fa01a2",
+                    "url": "https://api.github.com/repos/octris/sqlbuilder/zipball/37d2f679f9801e1ca99728750e0855526d0a6b7c",
+                    "reference": "37d2f679f9801e1ca99728750e0855526d0a6b7c",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^7.4.0"
                 },
-                "time": "2020-07-24T15:21:24+00:00",
+                "time": "2021-08-24T18:51:08+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
