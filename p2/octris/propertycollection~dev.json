@@ -8,18 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/propertycollection.git",
-                    "reference": "61a8fb849c272730d0638d32327b9ced4e822e36"
+                    "reference": "08ea285d12cdff74a046f772baed6fc8505000e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/61a8fb849c272730d0638d32327b9ced4e822e36",
-                    "reference": "61a8fb849c272730d0638d32327b9ced4e822e36",
+                    "url": "https://api.github.com/repos/octris/propertycollection/zipball/08ea285d12cdff74a046f772baed6fc8505000e8",
+                    "reference": "08ea285d12cdff74a046f772baed6fc8505000e8",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.4"
+                    "php": ">=7.4",
+                    "psr/container": "^1.0"
                 },
-                "time": "2021-08-21T20:01:31+00:00",
+                "time": "2021-08-30T16:16:25+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

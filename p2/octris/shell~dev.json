@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "octris/shell": [
+            {
+                "name": "octris/shell",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:octris/shell.git",
+                    "reference": "f3b8149297855c31bafd229f78e812acffd51cd2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/shell/zipball/f3b8149297855c31bafd229f78e812acffd51cd2",
+                    "reference": "f3b8149297855c31bafd229f78e812acffd51cd2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "php": ">=8.0",
+                    "psr/container": "^1.0"
+                },
+                "time": "2021-09-01T12:45:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Shell.php"
+                    ],
+                    "psr-4": {
+                        "Octris\\Shell\\": "libs/Shell/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octris.org",
+                        "homepage": "http://www.octris.org/"
+                    }
+                ],
+                "description": "Library for executing shell commands, wrapper for proc_open.",
+                "homepage": "http://github.com/octris/shell/",
+                "support": {
+                    "source": "https://github.com/octris/shell/tree/main",
+                    "issues": "https://github.com/octris/shell/issues"
+                }
+            }
+        ]
+    }
+}

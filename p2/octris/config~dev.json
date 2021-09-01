@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/octris/config.git",
-                    "reference": "2070fde3099ca7a740304afd9d778a275532adf8"
+                    "reference": "a2632b4ad730b3c77eb02e43d15c6fe981c6adfc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/config/zipball/2070fde3099ca7a740304afd9d778a275532adf8",
-                    "reference": "2070fde3099ca7a740304afd9d778a275532adf8",
+                    "url": "https://api.github.com/repos/octris/config/zipball/a2632b4ad730b3c77eb02e43d15c6fe981c6adfc",
+                    "reference": "a2632b4ad730b3c77eb02e43d15c6fe981c6adfc",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "ext-json": "Needed to support JSON format.",
                     "ext-yaml": "Needed to support YAML format."
                 },
-                "time": "2021-08-13T13:19:51+00:00",
+                "time": "2021-08-30T16:15:30+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
