@@ -847,21 +847,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:octris/shell.git",
-                    "reference": "f3b8149297855c31bafd229f78e812acffd51cd2"
+                    "reference": "c557c4d3ca65f64eb420af0f89fbe8d7442dc024"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/octris/shell/zipball/f3b8149297855c31bafd229f78e812acffd51cd2",
-                    "reference": "f3b8149297855c31bafd229f78e812acffd51cd2",
+                    "url": "https://api.github.com/repos/octris/shell/zipball/c557c4d3ca65f64eb420af0f89fbe8d7442dc024",
+                    "reference": "c557c4d3ca65f64eb420af0f89fbe8d7442dc024",
                     "shasum": ""
                 },
                 "require": {
                     "ext-pcntl": "*",
                     "ext-posix": "*",
-                    "php": ">=8.0",
+                    "php": ">=8.1",
                     "psr/container": "^1.0"
                 },
-                "time": "2021-09-01T12:45:07+00:00",
+                "time": "2021-09-06T10:04:26+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
