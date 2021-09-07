@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$4ceba0cc4578b51b83f98e18b4fc9dc49b3adeeb.json": {
-            "sha1": "4ceba0cc4578b51b83f98e18b4fc9dc49b3adeeb"
+        "include/all$672bab69c3b496da6c7911457264aa1d85403329.json": {
+            "sha1": "672bab69c3b496da6c7911457264aa1d85403329"
         }
     },
     "metadata-url": "/composer/p2/%package%.json"
