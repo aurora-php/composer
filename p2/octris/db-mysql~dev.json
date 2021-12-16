@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "octris/db-mysql": [
+            {
+                "name": "octris/db-mysql",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/octris/db-mysql.git",
+                    "reference": "9694cc5a5b9268d231e37d6af9142dca27aca108"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/octris/db-mysql/zipball/9694cc5a5b9268d231e37d6af9142dca27aca108",
+                    "reference": "9694cc5a5b9268d231e37d6af9142dca27aca108",
+                    "shasum": ""
+                },
+                "require": {
+                    "octris/db": "^0.2.0",
+                    "php": ">=8.1"
+                },
+                "time": "2021-08-24T19:28:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Octris\\Db\\": "libs/Db/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Harald Lapp",
+                        "email": "harald@octctris.org"
+                    }
+                ],
+                "description": "Mysql device for octris database component.",
+                "homepage": "https://github.com/octris/db-mysql",
+                "support": {
+                    "source": "https://github.com/octris/db-mysql/tree/master",
+                    "issues": "https://github.com/octris/db-mysql/issues"
+                }
+            }
+        ]
+    }
+}
