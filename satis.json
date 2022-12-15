@@ -4,18 +4,18 @@
   "description": "Octris composer packages",
   "twig-template": "views/index.html.twig",
   "repositories": [
-    { "type": "vcs", "url": "git@github.com:octris/app.git"},
-    { "type": "vcs", "url": "git@github.com:octris/assets.git"},
-    { "type": "vcs", "url": "git@github.com:octris/config.git"},
-    { "type": "vcs", "url": "git@github.com:octris/container.git"},
-    { "type": "vcs", "url": "git@github.com:octris/debug.git"},
-    { "type": "vcs", "url": "git@github.com:octris/devel.git"},
-    { "type": "vcs", "url": "git@github.com:octris/hashfilter.git"},
-    { "type": "vcs", "url": "git@github.com:octris/parser.git"},
-    { "type": "vcs", "url": "git@github.com:octris/process.git"},
-    { "type": "vcs", "url": "git@github.com:octris/propertycollection.git"},
-    { "type": "vcs", "url": "git@github.com:octris/sqlbuilder.git"},
-    { "type": "vcs", "url": "git@github.com:octris/tpl.git"},
-    { "type": "vcs", "url": "git@github.com:octris/validate.git"}
+    { "type": "vcs", "url": "git@github.com:aurora-php/app.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/assets.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/config.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/container.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/debug.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/devel.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/hashfilter.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/parser.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/process.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/propertycollection.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/sqlbuilder.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/tpl.git"},
+    { "type": "vcs", "url": "git@github.com:aurora-php/validate.git"}
   ]
 }
